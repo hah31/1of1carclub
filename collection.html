@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Collection | 1 of 1 Car Club</title>
+  <meta name="description" content="Twenty-plus significant Porsches in a working collection. Carrera GTs, a 993 GT2 R, DP Motorsport builds, and two cars in the Amazon MGM film American Speed.">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://1of1carclub.com/collection.html">
+  <meta property="og:title" content="The Collection | 1 of 1 Car Club">
+  <meta property="og:description" content="Twenty-plus significant Porsches in a working collection. Members spend time around these cars at events throughout the year.">
+  <meta property="og:image" content="https://1of1carclub.com/assets/og-placeholder.svg">
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===================== NAVIGATION ===================== -->
+  <nav class="nav nav--opaque" id="nav" aria-label="Main navigation">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">1 of 1 Car Club</a>
+      <ul class="nav__links" role="list">
+        <li><a href="philosophy.html">Philosophy</a></li>
+        <li><a href="collection.html" aria-current="page">The Collection</a></li>
+        <li><a href="index.html#apply" class="nav__apply">Apply</a></li>
+      </ul>
+      <button class="nav__burger" id="burger" aria-label="Open menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile overlay -->
+  <div class="nav__overlay" id="nav-overlay" role="dialog" aria-label="Navigation menu">
+    <nav>
+      <a href="philosophy.html">Philosophy</a>
+      <a href="collection.html">The Collection</a>
+      <a href="index.html#apply">Apply to join</a>
+    </nav>
+    <p class="nav__overlay-locs">Chicago &nbsp;&bull;&nbsp; Dallas</p>
+  </div>
+
+  <main>
+
+    <!-- ===================== COLLECTION INTRO ===================== -->
+    <section class="col-intro">
+      <div class="wrap">
+        <p class="col-intro__eyebrow reveal">The collection</p>
+        <h1 class="reveal reveal-delay-1">Twenty-plus Porsches.<br>All of them driven.</h1>
+        <div class="col-intro__body reveal reveal-delay-2">
+          <p>This is a working collection. Every car in it has been driven. Most have been driven hard.</p>
+          <p>Members encounter these cars at warehouse events, dinners, and track days throughout the year. They are not behind rope lines or on static display. They are present the way a car should be. Available, not protected.</p>
+          <p>The collection currently sits at 20-plus Porsches spanning four decades of the brand. The list changes. Cars come and go. What stays consistent is the standard: mechanically significant, historically relevant, or built with real intention. Often all three.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== COLLECTION GRID ===================== -->
+    <!--
+      DATA-DRIVEN: Cards below are populated by collection-data.js + script.js.
+      To add a car: edit collection-data.js only. See the template at the
+      bottom of that file. Never edit this HTML to add cars.
+    -->
+    <section class="col-grid-section">
+      <div class="wrap">
+        <div class="col-grid-section__header reveal">
+          <h2>Current collection</h2>
+          <span class="col-grid-section__count mono-label" id="collection-count">20+ cars</span>
+        </div>
+
+        <div class="card-grid" id="collection-grid" aria-label="Collection cars">
+          <!-- Populated by collection-data.js + script.js.
+               If JavaScript is disabled, add noscript fallback here. -->
+          <noscript>
+            <p style="padding: 2rem; color: var(--charcoal-lt); font-family: var(--font-sans); font-size: 1rem;">
+              Enable JavaScript to view the full collection.
+            </p>
+          </noscript>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== FEATURED CARS ===================== -->
+    <!--
+      DATA-DRIVEN: Featured articles populated by collection-data.js + script.js.
+      Cars with featured: true in collection-data.js appear here as long-form entries.
+    -->
+    <section class="featured-section" aria-label="Selected cars">
+      <div class="wrap">
+        <div class="featured-section__header reveal">
+          <h2>Selected cars</h2>
+        </div>
+        <div id="featured-section">
+          <!-- Populated by collection-data.js + script.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== PAST COLLECTION ===================== -->
+    <section class="past-col">
+      <div class="wrap">
+        <p class="past-col__eyebrow reveal">Ownership history</p>
+        <h2 class="reveal">Forty-plus cars over time.</h2>
+        <p class="reveal">The current collection represents where things stand now. Getting here took years and somewhere north of 40 cars.</p>
+        <p class="reveal">The significant ones come up in conversation at events: the Carrera GTs from earlier in the decade, the rare 911 variants that moved through before the current lineup took shape, the cars that informed the standard the collection holds today. Not all of them are listed here. That is not the point of this page.</p>
+        <p class="reveal">The point is that the cars present now were chosen the same way everything was chosen: driven, significant, or both. The history behind the collection is what makes that standard credible.</p>
+
+        <!-- Populated by collection-data.js + script.js (past array) -->
+        <div id="past-collection-list" class="past-col__list">
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CLOSING CTA ===================== -->
+    <section class="col-cta">
+      <div class="wrap">
+        <p class="reveal">Membership puts you around this collection at events throughout the year.</p>
+        <a href="index.html#apply" class="btn btn--red reveal reveal-delay-1">Apply to join</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__locs">Chicago&ensp;//&ensp;Dallas</div>
+      <div class="footer__contact">
+        <a href="mailto:hello@1of1carclub.com">hello@1of1carclub.com</a>
+      </div>
+      <p class="footer__copy">&copy; 2026 1 of 1 Car Club. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- collection-data.js must load before script.js -->
+  <script src="collection-data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
