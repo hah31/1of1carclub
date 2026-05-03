@@ -3,8 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>1 of 1 Car Club</title>
-  <meta name="description" content="A private Porsche club for people who drive their cars. Track days at G2 Motorsports Park. Based in Chicago and Dallas.">
+  <title>1 of 1 Car Club | A Porsche club for people who drive their cars. Chicago and Dallas.</title>
+  <meta name="description" content="A private Porsche club based in Chicago and Dallas. Track days at G2 Motorsports Park, drives, warehouse dinners, and time around one of the deepest private Porsche collections in the country.">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://1of1carclub.com/">
+  <meta property="og:title" content="1 of 1 Car Club">
+  <meta property="og:description" content="A private Porsche club for people who drive their cars. Chicago and Dallas. Members by invitation.">
+  <meta property="og:image" content="https://1of1carclub.com/assets/og-placeholder.svg">
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="style.css">
 </head>
 <body class="has-transparent-nav">
@@ -40,14 +49,16 @@
 
     <!-- ===================== HERO ===================== -->
     <section class="hero" aria-label="Hero">
-      <!-- PHOTO PLACEHOLDER: Full-bleed hero image or looping video.
-           Ideal: Carrera GT or 993 GT2 R on track at G2, moving, not static.
-           Alternatively: warehouse interior with several significant cars visible.
-           No stock photography. Must stop a scroll.
-           When replacing, swap this .ph div for an <img> or <video> tag
-           with width/height 100% and object-fit: cover. -->
+      <!--
+        PHOTO PLACEHOLDER: Full-bleed hero image or looping video.
+        Ideal: Carrera GT or 993 GT2 R on track at G2, moving, not static.
+        Alternatively: warehouse interior with several significant cars visible.
+        No stock photography. Must stop a scroll.
+        To replace: swap this .ph div for an <img> or <video muted autoplay loop playsinline>
+        with style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover"
+      -->
       <div class="ph ph--hero">
-        <span class="ph__label">Photo / video placeholder<br>Hero — Carrera GT or 993 GT2 R on track at G2,<br>or warehouse interior with the collection visible</span>
+        <span class="ph__label">Photo / video placeholder<br>Hero: Carrera GT or 993 GT2 R on track at G2,<br>or warehouse interior with the collection visible</span>
       </div>
       <div class="hero__overlay"></div>
       <div class="hero__content">
@@ -80,7 +91,7 @@
                 <li>Track days at G2 Motorsports Park in Dallas.</li>
                 <li>Drives through the Chicagoland area worth driving.</li>
                 <li>Dinners and events at the warehouse.</li>
-                <li>Time around rare Porsches &mdash; air-cooled, analog, used.</li>
+                <li>Time around rare Porsches: air-cooled, analog, driven.</li>
                 <li>Real friendships with people who actually care about these cars.</li>
               </ul>
             </div>
@@ -114,11 +125,13 @@
             <a href="https://g2motorsportspark.com" target="_blank" rel="noopener noreferrer" class="track__link">G2 Motorsports Park</a>
           </div>
           <div class="track__media reveal reveal-delay-1">
-            <!-- PHOTO PLACEHOLDER: On-track action at G2 Motorsports Park.
-                 A Porsche mid-corner or down a straight. Not a static parked shot.
-                 G2 may have media assets — confirm licensing before use. -->
+            <!--
+              PHOTO PLACEHOLDER: On-track action at G2 Motorsports Park.
+              A Porsche mid-corner or down a straight. Not a static parked shot.
+              G2 may have media assets. Confirm licensing before use.
+            -->
             <div class="ph ph--track">
-              <span class="ph__label">Photo placeholder<br>On-track action at G2 Motorsports Park<br>A Porsche mid-corner or down a straight</span>
+              <span class="ph__label">Photo placeholder<br>On-track at G2 Motorsports Park<br>A Porsche mid-corner or down a straight</span>
             </div>
           </div>
         </div>
@@ -143,7 +156,7 @@
         </div>
         <div class="events__foot reveal">
           <p><strong>Both calendars are active. Both communities are real.</strong></p>
-          <p>We're building toward additional markets. Nothing to announce yet. If you're not in Chicago or Dallas, apply anyway&nbsp;&mdash; we'll tell you where things stand.</p>
+          <p>We're building toward additional markets. Nothing to announce yet. If you're not in Chicago or Dallas, apply anyway. We'll tell you where things stand.</p>
         </div>
       </div>
     </section>
@@ -151,13 +164,14 @@
     <!-- ===================== THE CARS (teaser) ===================== -->
     <section class="cars-teaser" aria-label="The collection">
       <div class="cars-teaser__media">
-        <!-- PHOTO PLACEHOLDER: Collection teaser image.
-             Full-bleed, moody. Best option: multiple significant cars
-             in the warehouse together. 993 GT2 R and a CGT in frame
-             together would be ideal. Shot from a low angle, showing
-             the cars in context, not isolated. -->
+        <!--
+          PHOTO PLACEHOLDER: Collection teaser image.
+          Full-bleed, moody. Best option: multiple significant cars in the warehouse
+          together. 993 GT2 R and a Carrera GT in frame together would be ideal.
+          Shot from a low angle, cars in context, not isolated on white.
+        -->
         <div class="ph ph--featured" style="background-color: #332E28;">
-          <span class="ph__label" style="color: rgba(245,241,234,0.35);">Photo placeholder<br>Collection teaser — multiple cars in the warehouse,<br>moody, low angle. 993 GT2 R and Carrera GT together if possible.</span>
+          <span class="ph__label" style="color: rgba(245,241,234,0.35);">Photo placeholder<br>Collection teaser: multiple cars in the warehouse,<br>moody, low angle. 993 GT2 R and Carrera GT together if possible.</span>
         </div>
         <div class="cars-teaser__overlay"></div>
       </div>
@@ -179,22 +193,23 @@
           <p>We read every application and follow up personally. This is a conversation, not a checkout.</p>
         </div>
 
-        <!-- FormSubmit.co integration.
-             BEFORE GOING LIVE: Replace PLACEHOLDER_EMAIL with the real address.
-             First submission to a new address triggers an activation email from FormSubmit.
-             Confirm the address and complete activation before launch.
-             Docs: https://formsubmit.co/documentation -->
+        <!--
+          FormSubmit.co - destination: hello@1of1carclub.com
+          First submission triggers an activation email from FormSubmit.
+          Click the link in that email before launch or submissions will not deliver.
+          Docs: https://formsubmit.co/documentation
+        -->
         <form
-          action="https://formsubmit.co/PLACEHOLDER_EMAIL"
+          action="https://formsubmit.co/hello@1of1carclub.com"
           method="POST"
           class="form reveal"
+          novalidate
         >
           <!-- FormSubmit config -->
-          <input type="hidden" name="_subject" value="New Membership Application — 1 of 1 Car Club">
+          <input type="hidden" name="_subject" value="New Membership Application - 1 of 1 Car Club">
           <input type="hidden" name="_captcha" value="false">
           <input type="hidden" name="_template" value="table">
-          <!-- Uncomment and set domain once known:
-          <input type="hidden" name="_next" value="https://1of1carclub.com/"> -->
+          <input type="hidden" name="_next" value="https://1of1carclub.com/thanks.html">
 
           <!-- Honeypot anti-spam -->
           <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
@@ -210,6 +225,7 @@
                 required
                 autocomplete="name"
               >
+              <span class="form__error">Name is required.</span>
             </div>
             <div class="form__group">
               <label class="form__label" for="email">Email address</label>
@@ -221,6 +237,7 @@
                 required
                 autocomplete="email"
               >
+              <span class="form__error">A valid email is required.</span>
             </div>
           </div>
 
@@ -282,8 +299,7 @@
     <div class="footer__inner">
       <div class="footer__locs">Chicago&ensp;//&ensp;Dallas</div>
       <div class="footer__contact">
-        <a href="mailto:apply@1of1carclub.com">apply@1of1carclub.com</a>
-        <!-- PLACEHOLDER: Confirm real email address before launch -->
+        <a href="mailto:hello@1of1carclub.com">hello@1of1carclub.com</a>
       </div>
       <p class="footer__copy">&copy; 2026 1 of 1 Car Club. All rights reserved.</p>
     </div>

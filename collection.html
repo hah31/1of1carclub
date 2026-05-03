@@ -3,8 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The Collection &mdash; 1 of 1 Car Club</title>
-  <meta name="description" content="Twenty-plus significant Porsches in a working collection. Members spend time around these cars at events throughout the year.">
+  <title>The Collection | 1 of 1 Car Club</title>
+  <meta name="description" content="Twenty-plus significant Porsches in a working collection. Carrera GTs, a 993 GT2 R, DP Motorsport builds, and two cars in the Amazon MGM film American Speed.">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://1of1carclub.com/collection.html">
+  <meta property="og:title" content="The Collection | 1 of 1 Car Club">
+  <meta property="og:description" content="Twenty-plus significant Porsches in a working collection. Members spend time around these cars at events throughout the year.">
+  <meta property="og:image" content="https://1of1carclub.com/assets/og-placeholder.svg">
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -45,332 +54,50 @@
         <h1 class="reveal reveal-delay-1">Twenty-plus Porsches.<br>All of them driven.</h1>
         <div class="col-intro__body reveal reveal-delay-2">
           <p>This is a working collection. Every car in it has been driven. Most have been driven hard.</p>
-          <p>Members encounter these cars at warehouse events, dinners, and track days throughout the year. They are not behind rope lines or on static display. They are present in the way that a car should be present&nbsp;&mdash; available, not protected.</p>
+          <p>Members encounter these cars at warehouse events, dinners, and track days throughout the year. They are not behind rope lines or on static display. They are present the way a car should be. Available, not protected.</p>
           <p>The collection currently sits at 20-plus Porsches spanning four decades of the brand. The list changes. Cars come and go. What stays consistent is the standard: mechanically significant, historically relevant, or built with real intention. Often all three.</p>
         </div>
       </div>
     </section>
 
     <!-- ===================== COLLECTION GRID ===================== -->
+    <!--
+      DATA-DRIVEN: Cards below are populated by collection-data.js + script.js.
+      To add a car: edit collection-data.js only. See the template at the
+      bottom of that file. Never edit this HTML to add cars.
+    -->
     <section class="col-grid-section">
       <div class="wrap">
         <div class="col-grid-section__header reveal">
           <h2>Current collection</h2>
-          <span class="col-grid-section__count mono-label">20+ cars</span>
+          <span class="col-grid-section__count mono-label" id="collection-count">20+ cars</span>
         </div>
 
-        <!-- NOTE: Cards marked [TBD] need founder input — year, full model name,
-             and one sentence of context. Replace placeholder content with real details.
-             The grid scales cleanly to 25+ cards without layout changes. -->
-
-        <div class="card-grid">
-
-          <!-- CONFIRMED: Carrera GT #1 -->
-          <article class="car-card reveal">
-            <div class="car-card__media">
-              <!-- PHOTO PLACEHOLDER: 2005 Carrera GT exterior. 3/4 front angle preferred. -->
-              <div class="ph ph--card">
-                <span class="ph__label">2005 Carrera GT<br>Photo to be added</span>
-              </div>
-            </div>
-            <div class="car-card__body">
-              <p class="car-card__year">2005</p>
-              <h3 class="car-card__model">Carrera GT</h3>
-              <p class="car-card__note">One of the most demanding road cars Porsche has ever built. Naturally aspirated V10. Six-speed manual. No electronic safety nets. This one gets driven.</p>
-            </div>
-          </article>
-
-          <!-- CONFIRMED: Carrera GT #2 (year TBD) -->
-          <article class="car-card reveal reveal-delay-1">
-            <div class="car-card__media">
-              <!-- PHOTO PLACEHOLDER: Second Carrera GT in collection. Confirm year. -->
-              <div class="ph ph--card">
-                <span class="ph__label">Carrera GT (year to be confirmed)<br>Photo to be added</span>
-              </div>
-            </div>
-            <div class="car-card__body">
-              <p class="car-card__year">2004&ndash;2006</p>
-              <h3 class="car-card__model">Carrera GT</h3>
-              <p class="car-card__note">A second example from the current collection. Two CGTs in one room is a statement. Year and details to be confirmed.</p>
-            </div>
-          </article>
-
-          <!-- CONFIRMED: 993 GT2 R -->
-          <article class="car-card reveal reveal-delay-2">
-            <div class="car-card__media">
-              <!-- PHOTO PLACEHOLDER: 993 GT2 R. Racing livery if present. Confirm year. -->
-              <div class="ph ph--card">
-                <span class="ph__label">993 GT2 R<br>Photo to be added</span>
-              </div>
-            </div>
-            <div class="car-card__body">
-              <p class="car-card__year">Mid-1990s</p>
-              <h3 class="car-card__model">993 GT2 R</h3>
-              <p class="car-card__note">The factory race version of the 993 GT2. Built for GT competition. One of very few in existence. Not a street car.</p>
-            </div>
-          </article>
-
-          <!-- CONFIRMED: DP Motorsport #1 (details TBD) -->
-          <article class="car-card reveal">
-            <div class="car-card__media">
-              <!-- PHOTO PLACEHOLDER: DP Motorsport build #1. Confirm base model and year. -->
-              <div class="ph ph--card">
-                <span class="ph__label">DP Motorsport build<br>Photo to be added</span>
-              </div>
-            </div>
-            <div class="car-card__body">
-              <p class="car-card__year">Year TBC</p>
-              <h3 class="car-card__model">DP Motorsport Build</h3>
-              <p class="car-card__note">A DP Motorsport conversion. One of the most respected Porsche coachbuilders, working on 911s since the 1970s. Year and base model to be confirmed.</p>
-            </div>
-          </article>
-
-          <!-- CONFIRMED: DP Motorsport #2 (details TBD) -->
-          <article class="car-card reveal reveal-delay-1">
-            <div class="car-card__media">
-              <!-- PHOTO PLACEHOLDER: DP Motorsport build #2. Confirm base model and year. -->
-              <div class="ph ph--card">
-                <span class="ph__label">DP Motorsport build II<br>Photo to be added</span>
-              </div>
-            </div>
-            <div class="car-card__body">
-              <p class="car-card__year">Year TBC</p>
-              <h3 class="car-card__model">DP Motorsport Build II</h3>
-              <p class="car-card__note">A second DP build in the collection. Each one distinct. Year and base model to be confirmed.</p>
-            </div>
-          </article>
-
-          <!-- CONFIRMED: American Speed film car #1 (details TBD) -->
-          <article class="car-card reveal reveal-delay-2">
-            <div class="car-card__media">
-              <!-- PHOTO PLACEHOLDER: American Speed film car #1. Confirm year and model. -->
-              <div class="ph ph--card">
-                <span class="ph__label">American Speed film car<br>Photo to be added</span>
-              </div>
-            </div>
-            <div class="car-card__body">
-              <p class="car-card__year">Year TBC</p>
-              <h3 class="car-card__model">American Speed</h3>
-              <p class="car-card__note">Currently appearing in the film American Speed. Year and model to be confirmed.</p>
-            </div>
-          </article>
-
-          <!-- CONFIRMED: American Speed film car #2 (details TBD) -->
-          <article class="car-card reveal">
-            <div class="car-card__media">
-              <!-- PHOTO PLACEHOLDER: American Speed film car #2. Confirm year and model. -->
-              <div class="ph ph--card">
-                <span class="ph__label">American Speed film car II<br>Photo to be added</span>
-              </div>
-            </div>
-            <div class="car-card__body">
-              <p class="car-card__year">Year TBC</p>
-              <h3 class="car-card__model">American Speed II</h3>
-              <p class="car-card__note">The second car from the collection appearing in American Speed. Year and model to be confirmed.</p>
-            </div>
-          </article>
-
-          <!-- TBD: Remaining cars — 13+ to be supplied by founder -->
-          <article class="car-card car-card--tbd reveal reveal-delay-1">
-            <div class="car-card__media">
-              <div class="ph ph--card" style="background-color: var(--cream-dark);">
-                <span class="ph__label">Car details to be added</span>
-              </div>
-            </div>
-            <div class="car-card__body">
-              <p class="car-card__year">Year TBC</p>
-              <h3 class="car-card__model">To be added</h3>
-              <p class="car-card__note">Details to follow.</p>
-            </div>
-          </article>
-
-          <article class="car-card car-card--tbd reveal reveal-delay-2">
-            <div class="car-card__media">
-              <div class="ph ph--card" style="background-color: var(--cream-dark);">
-                <span class="ph__label">Car details to be added</span>
-              </div>
-            </div>
-            <div class="car-card__body">
-              <p class="car-card__year">Year TBC</p>
-              <h3 class="car-card__model">To be added</h3>
-              <p class="car-card__note">Details to follow.</p>
-            </div>
-          </article>
-
-          <article class="car-card car-card--tbd reveal">
-            <div class="car-card__media">
-              <div class="ph ph--card" style="background-color: var(--cream-dark);">
-                <span class="ph__label">Car details to be added</span>
-              </div>
-            </div>
-            <div class="car-card__body">
-              <p class="car-card__year">Year TBC</p>
-              <h3 class="car-card__model">To be added</h3>
-              <p class="car-card__note">Details to follow.</p>
-            </div>
-          </article>
-
-          <article class="car-card car-card--tbd reveal reveal-delay-1">
-            <div class="car-card__media">
-              <div class="ph ph--card" style="background-color: var(--cream-dark);">
-                <span class="ph__label">Car details to be added</span>
-              </div>
-            </div>
-            <div class="car-card__body">
-              <p class="car-card__year">Year TBC</p>
-              <h3 class="car-card__model">To be added</h3>
-              <p class="car-card__note">Details to follow.</p>
-            </div>
-          </article>
-
-          <article class="car-card car-card--tbd reveal reveal-delay-2">
-            <div class="car-card__media">
-              <div class="ph ph--card" style="background-color: var(--cream-dark);">
-                <span class="ph__label">Car details to be added</span>
-              </div>
-            </div>
-            <div class="car-card__body">
-              <p class="car-card__year">Year TBC</p>
-              <h3 class="car-card__model">To be added</h3>
-              <p class="car-card__note">Details to follow.</p>
-            </div>
-          </article>
-
-          <article class="car-card car-card--tbd reveal">
-            <div class="car-card__media">
-              <div class="ph ph--card" style="background-color: var(--cream-dark);">
-                <span class="ph__label">Car details to be added</span>
-              </div>
-            </div>
-            <div class="car-card__body">
-              <p class="car-card__year">Year TBC</p>
-              <h3 class="car-card__model">To be added</h3>
-              <p class="car-card__note">Details to follow.</p>
-            </div>
-          </article>
-
-          <article class="car-card car-card--tbd reveal reveal-delay-1">
-            <div class="car-card__media">
-              <div class="ph ph--card" style="background-color: var(--cream-dark);">
-                <span class="ph__label">Car details to be added</span>
-              </div>
-            </div>
-            <div class="car-card__body">
-              <p class="car-card__year">Year TBC</p>
-              <h3 class="car-card__model">To be added</h3>
-              <p class="car-card__note">Details to follow.</p>
-            </div>
-          </article>
-
+        <div class="card-grid" id="collection-grid" aria-label="Collection cars">
+          <!-- Populated by collection-data.js + script.js.
+               If JavaScript is disabled, add noscript fallback here. -->
+          <noscript>
+            <p style="padding: 2rem; color: var(--charcoal-lt); font-family: var(--font-sans); font-size: 1rem;">
+              Enable JavaScript to view the full collection.
+            </p>
+          </noscript>
         </div>
-        <!-- END card-grid. To add more cars: duplicate any <article class="car-card"> block
-             and fill in year, model name, note, and photo. The grid handles any number. -->
       </div>
     </section>
 
     <!-- ===================== FEATURED CARS ===================== -->
-    <section class="featured-section">
+    <!--
+      DATA-DRIVEN: Featured articles populated by collection-data.js + script.js.
+      Cars with featured: true in collection-data.js appear here as long-form entries.
+    -->
+    <section class="featured-section" aria-label="Selected cars">
       <div class="wrap">
         <div class="featured-section__header reveal">
           <h2>Selected cars</h2>
         </div>
-
-        <!-- FEATURED 1: Carrera GT -->
-        <article class="featured-car reveal">
-          <div class="featured-car__media">
-            <!-- PHOTO PLACEHOLDER: Carrera GT hero shot.
-                 3/4 front angle, exterior.
-                 If possible: a second shot of the interior or the V10 engine bay.
-                 Color: silver, black, or factory Fayence Yellow preferred. -->
-            <div class="ph ph--featured">
-              <span class="ph__label" style="color:rgba(245,241,234,0.3);">Photo placeholder<br>Carrera GT — exterior or engine bay</span>
-            </div>
-          </div>
-          <div class="featured-car__body">
-            <p class="featured-car__year">2004&ndash;2006</p>
-            <h3 class="featured-car__model">Carrera GT</h3>
-            <div class="featured-car__text">
-              <p>Porsche built 1,270 Carrera GTs between 2004 and 2006. The engine started as a Le Mans racing unit. When the racing program was shelved, Porsche adapted it into a 5.7-liter naturally aspirated V10 and put it in a road car.</p>
-              <p>The gearbox uses a wood-and-leather shift knob. Not because of tradition&nbsp;&mdash; because carbon fiber was too stiff for the mechanical feel the engineers wanted. That specificity runs through every decision in the car.</p>
-              <p>There is no traction control in the conventional sense. The car was built to communicate, not to correct. Most buyers were not ready for it. The ones who were describe it as the most alive road car they've ever driven.</p>
-              <p>The founder has owned five across his history with the car. The examples in the collection now are driven.</p>
-            </div>
-          </div>
-        </article>
-
-        <!-- FEATURED 2: 993 GT2 R (reversed layout) -->
-        <article class="featured-car featured-car--reverse reveal">
-          <div class="featured-car__media">
-            <!-- PHOTO PLACEHOLDER: 993 GT2 R.
-                 If it has racing livery, show that. If not, 3/4 rear angle.
-                 This car should look like a race car because it is one.
-                 Confirm year and any livery before finalizing caption. -->
-            <div class="ph ph--featured">
-              <span class="ph__label" style="color:rgba(245,241,234,0.3);">Photo placeholder<br>993 GT2 R — confirm year and livery<br>Racing configuration preferred</span>
-            </div>
-          </div>
-          <div class="featured-car__body">
-            <p class="featured-car__year">Mid-1990s &mdash; confirm year</p>
-            <h3 class="featured-car__model">993 GT2 R</h3>
-            <div class="featured-car__text">
-              <p>The 993 GT2 R is not a road car with a track package. It is a factory-built competition vehicle, produced for GT class racing in the mid-1990s.</p>
-              <p>Twin-turbocharged. Rear-wheel drive only&nbsp;&mdash; no all-wheel-drive system to soften the delivery. Built by Porsche Motorsport to go racing, which is exactly what it did.</p>
-              <p>The 993 generation was the last air-cooled 911 Porsche built. This is one of the most significant examples of that generation to exist in a private collection.</p>
-              <!-- NOTE TO FOUNDER: Add specific racing history, provenance, and chassis
-                   details here once confirmed. More detail = stronger copy. -->
-            </div>
-            <span class="featured-car__badge">Factory race car</span>
-          </div>
-        </article>
-
-        <!-- FEATURED 3: DP Motorsport -->
-        <article class="featured-car reveal">
-          <div class="featured-car__media">
-            <!-- PHOTO PLACEHOLDER: DP Motorsport build.
-                 Confirm which car is being featured here (base model, year, build spec).
-                 Show the car in a way that communicates it's a serious driver, not a show piece. -->
-            <div class="ph ph--featured">
-              <span class="ph__label" style="color:rgba(245,241,234,0.3);">Photo placeholder<br>DP Motorsport build — confirm which car<br>Base model, year, and build spec needed</span>
-            </div>
-          </div>
-          <div class="featured-car__body">
-            <p class="featured-car__year">Year TBC &mdash; confirm</p>
-            <h3 class="featured-car__model">DP Motorsport Build</h3>
-            <div class="featured-car__text">
-              <p>DP Motorsport has been building and converting Porsches since the 1970s. Their work sits in a category that doesn't have a clean label&nbsp;&mdash; not a restoration, not a replica, not a restomod. An interpretation, executed by people who have been thinking about 911s for as long as most collectors have been alive.</p>
-              <p>The DP cars in this collection are not display pieces. They were built to be used and they are used.</p>
-              <!-- NOTE TO FOUNDER: Add year, base car, and specific build specification here.
-                   If the car has a name or designation (DP 935, DP RSR, etc.), use it.
-                   The more specific the details, the better this section reads. -->
-            </div>
-          </div>
-        </article>
-
-        <!-- FEATURED 4: American Speed film car -->
-        <article class="featured-car featured-car--reverse reveal">
-          <div class="featured-car__media">
-            <!-- PHOTO PLACEHOLDER: American Speed film car.
-                 Confirm which car appears here and what it is.
-                 If production images from the film are available and cleared for use,
-                 those would be ideal. Otherwise, a standalone shot of the car. -->
-            <div class="ph ph--featured">
-              <span class="ph__label" style="color:rgba(245,241,234,0.3);">Photo placeholder<br>American Speed film car — confirm model and year<br>Film stills may be available once production clears</span>
-            </div>
-          </div>
-          <div class="featured-car__body">
-            <p class="featured-car__year">Year TBC &mdash; confirm</p>
-            <h3 class="featured-car__model">American Speed</h3>
-            <div class="featured-car__text">
-              <p>Two cars from the collection are currently in production for a film called American Speed.</p>
-              <!-- NOTE TO FOUNDER: Add detail about the film and the specific car here
-                   once confirmed. Even a single strong sentence about the car's
-                   significance independent of the film is enough to anchor this entry.
-                   If film details are embargoed, leave as-is and update at launch. -->
-            </div>
-            <span class="featured-car__badge">In production</span>
-          </div>
-        </article>
-
+        <div id="featured-section">
+          <!-- Populated by collection-data.js + script.js -->
+        </div>
       </div>
     </section>
 
@@ -380,8 +107,12 @@
         <p class="past-col__eyebrow reveal">Ownership history</p>
         <h2 class="reveal">Forty-plus cars over time.</h2>
         <p class="reveal">The current collection represents where things stand now. Getting here took years and somewhere north of 40 cars.</p>
-        <p class="reveal">The significant ones come up in conversation at events: the Carrera GTs from earlier in the decade, the rare 911 variants that moved through before the current lineup took shape, the cars that informed the standard the collection holds today. Not all of them are listed here. That's not the point of this page.</p>
-        <p class="reveal">The point is that the cars present in the collection now were chosen the same way everything was chosen: driven, significant, or both. The history behind the collection is what makes that standard credible.</p>
+        <p class="reveal">The significant ones come up in conversation at events: the Carrera GTs from earlier in the decade, the rare 911 variants that moved through before the current lineup took shape, the cars that informed the standard the collection holds today. Not all of them are listed here. That is not the point of this page.</p>
+        <p class="reveal">The point is that the cars present now were chosen the same way everything was chosen: driven, significant, or both. The history behind the collection is what makes that standard credible.</p>
+
+        <!-- Populated by collection-data.js + script.js (past array) -->
+        <div id="past-collection-list" class="past-col__list">
+        </div>
       </div>
     </section>
 
@@ -400,12 +131,14 @@
     <div class="footer__inner">
       <div class="footer__locs">Chicago&ensp;//&ensp;Dallas</div>
       <div class="footer__contact">
-        <a href="mailto:apply@1of1carclub.com">apply@1of1carclub.com</a>
+        <a href="mailto:hello@1of1carclub.com">hello@1of1carclub.com</a>
       </div>
       <p class="footer__copy">&copy; 2026 1 of 1 Car Club. All rights reserved.</p>
     </div>
   </footer>
 
+  <!-- collection-data.js must load before script.js -->
+  <script src="collection-data.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
