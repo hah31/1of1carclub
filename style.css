@@ -740,14 +740,15 @@ h1, h2, h3, h4 {
 
 .cars-teaser {
   position: relative;
+  min-height: 65vh;
+  display: flex;
+  align-items: flex-end;
   overflow: hidden;
-  padding: 0;
 }
 
 .cars-teaser__media {
-  position: relative;
-  height: 65vh;
-  min-height: 380px;
+  position: absolute;
+  inset: 0;
 }
 
 .cars-teaser__overlay {
@@ -755,19 +756,22 @@ h1, h2, h3, h4 {
   inset: 0;
   z-index: 1;
   background: linear-gradient(
-    105deg,
-    rgba(10, 8, 6, 0.82) 0%,
-    rgba(10, 8, 6, 0.45) 55%,
-    rgba(10, 8, 6, 0.08) 100%
+    to top,
+    rgba(10, 8, 6, 0.88) 0%,
+    rgba(10, 8, 6, 0.55) 40%,
+    rgba(10, 8, 6, 0.15) 100%
   );
 }
 
+/* Suppress placeholder label text — invisible behind gradient anyway */
+.cars-teaser .ph__label {
+  display: none;
+}
+
 .cars-teaser__content {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  position: relative;
   z-index: 2;
+  width: 100%;
 }
 
 .cars-teaser__content .wrap {
