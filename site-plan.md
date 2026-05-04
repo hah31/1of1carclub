@@ -174,15 +174,15 @@ The collection behind this club is proof that this philosophy holds up over deca
 
 ---
 
-## SECTION 3: WHY THE NEXT GENERATION
+## SECTION 3: WHAT WE'RE PAYING ATTENTION TO
 
-There is a generation of Porsche collectors who figured it out early. Not because the market told them to -- because they did the work. They watched the auctions, drove the cars, read the histories, and developed a genuine understanding of what makes a 911 significant.
+Air-cooled 911s. The Mezger-engine GT cars. The Carrera GT. The DP builds and the 935s. Porsche from the late 70s through the early 2000s, when the cars were still mechanical, still analog, still demanded something from the person driving them.
 
-They know why air-cooled matters. They know the difference between a 964 C4 and a 964 RS and what each one was built for. They know the Carrera GT story -- that the engine came from a Le Mans program, that Porsche built the car without traction control by design, that most of the 1,270 produced were never used the way the car intended.
+These cars matter right now in a way they didn't five years ago. The market has woken up to what air-cooled actually is. The 996.1 GT3 is finally getting credit. Carrera GT prices have tripled. Mezger-era 911s are climbing because people who know cars are buying them faster than people are selling.
 
-This generation has been mostly overlooked by the existing club world. The events don't fit. The culture doesn't fit. The conversation doesn't fit.
+The club is built around the people who recognized this early. Not because the market told them to. Because they watched the auctions, drove the cars, learned the histories, and developed a real understanding of what makes a 911 significant.
 
-1 of 1 was built specifically for them. Not as a gesture in their direction -- as a club that operates the way they actually want a club to operate. Real cars. Real track time. Real people.
+These are mechanical assets. Finite. Driven hard. Appreciated by hand. The people who get this club are the people who already know what's happening with these cars and want to be in a community of people who feel the same way.
 
 ---
 
